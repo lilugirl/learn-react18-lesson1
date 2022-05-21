@@ -1,0 +1,9 @@
+.product{
+    margin:20px auto;
+    border:1px solid gray;
+    border-radius: 5px;
+    background-color: royalblue;
+    color:white;
+    width:300px;
+    padding:20px;
+}
