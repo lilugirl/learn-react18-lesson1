@@ -1,4 +1,4 @@
-### 学习 React 18 的 useTranstion 和 useDeferredValue 的用法
+### 学习 React 18 的 useTransition 和 useDeferredValue 的用法
 
 #### 运行代码
 
