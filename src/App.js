@@ -15,6 +15,8 @@ function App() {
   }
   const products=filterProducts()
 
+  const deferredProducts=useDeferredValue(products)
+
   const handleFilterChange=(e)=>{
     setSearchText(e.target.value)
   }
@@ -25,7 +27,7 @@ function App() {
           <input placeholder='输入产品名称' onChange={handleFilterChange} />  
        </div>
       
-       {products.map((product,index)=>{
+       {deferredProducts.map((product,index)=>{
          return (<Product product={product} key={index} />)
        })}
     </div>
